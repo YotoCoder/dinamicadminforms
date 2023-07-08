@@ -1,0 +1,73 @@
+del 1 al 49 entradas
+del 50 al 99 salidas con colores
+
+el almacen destino depende del tipo
+ - se activa cuando tipo es 57
+ - el destino no puede ser igual al origen
+
+=========== ===================
+el 52 a pesar de que es salida tiene que buscar en la tabla de proveedores
+============== =================
+el 03 es devolucion a clientes, es una entrada
+busca en la tabla de clientes
+===================  ============== 
+tipo 33 debe buscar en la tabla de clientes
+========= ========
+
+con el 07 acumlar promedio de cantidad y valores
+
+y con salida si la cantidad quedó en 0 resetear a cero
+
+=====
+
+verificar que no sean iguales afectado y destino
+
+tipo 08 se pueda mostrar pero no editar, es como entrada
+
+el 008 no lo pueden usar
+
+
+01 49 entradas
+50 99 salidas
+
+======== ========== ============= =========== =====
+
+en el nit si voy a utilizar como tipo del 01 al 49
+en el nit debo buscar en la tabla de proveedores
+
+y del 50 al 99 busco en la tabla de clientes
+si es devolución a un proveedor que busque en la tabla de proveedores
+
+nit
+en el nit que apareza el nit cli_codigo, el campo sucursal cli_suc, y el cli_nombre
+en provedor prov_cod prov_suc pro_nombre
+==========
+
+entre sucursal y orden el nombre del cliente o nombre del proveedor
+
+=========
+transporte funcionar igual al almacen
+cod_transporte y el nombre [cod: nombre:]
+=========
+nit
+cod sucursal
+nombre
+===========
+
+incluye articulos inactivos o activos checkbox en articulos
+
+=============
+
+a la izquierda del producto un indice
+1
+2
+3
+
+agregar cantidad existencia actual y el costo actual
+
+=======================
+
+cuando sea una entrada yo busco en el master de articulos 
+le coloco el costo actual, pero si mi master de articulos por proveedor
+encuentro un codigo de articulo el costo que me muestra el sistema es el 
+pacto con el proveedor

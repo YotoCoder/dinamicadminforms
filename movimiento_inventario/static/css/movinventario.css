@@ -1,0 +1,123 @@
+h1 {
+    margin-bottom: 4px;
+}
+
+#id_nit {
+    width: 120px;
+}
+
+.aligned label {
+    width: auto;
+}
+
+.errorlist {
+    width: 100%;
+}
+
+.module, .content {
+    background-color: #f0f0f08f;
+    border-radius: 12px;
+}
+
+#content > h1 {
+    display: flex;
+    width: 100%;
+    color: #F9FA71;
+    background-color: var(--admin-interface-module-background-color);
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    width: fit-content;
+    padding: 4px 6px 4px 6px;
+    border-radius: 12px;
+}
+
+#content {
+    padding: 4px 40px;
+}
+
+form .aligned ul {
+    margin-left: 0px;
+}
+
+ul.errorlist {
+    width: auto;
+    background-color: rgba(255, 0, 0, 0.021);
+}
+
+.form-row {
+    padding: 0;
+    border-bottom: 0;
+}
+
+.module {
+    margin-bottom: 8px;
+}
+
+
+#nav-sidevar {
+    width: 10px;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+}
+
+#id_documento{
+    width: 100px;
+}
+
+.form-multiline > div {
+    padding-bottom: 0px;
+}
+
+/* prodcutos */
+
+.field-umed > .vTextField {
+    width: 40px;
+}
+
+.field-costo_unit > input {
+    width: 100px;
+}
+
+#id_transporte {
+    margin: 3px 0 2px 0;
+}
+
+.errorlist > li {
+    display: flex;
+    width: 100%;
+}
+
+.original > p {
+    display: none;
+}
+
+.inline-group .tabular tr.has_original td {
+    padding-top: 0;
+}
+
+/* remove header */
+#header {
+    display: none !important;
+}
+
+fieldset > table > tbody > tr > td {
+    padding: 0;
+}
+
+/* #nav-sidebar {
+    display: none !;
+} */
+/* .admin-interface #nav-sidebar {
+flex: 0 0 300px;
+} */
+/* 
+@media (min-width: 1280px) {
+    .admin-interface #main.shifted > #toggle-nav-sidebar {
+      left: 299px;
+    }
+} */
